@@ -1,0 +1,889 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Playfair+Display:wght@400;700&family=Montserrat:ital,wght@0,400;0,600;1,500&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+}
+.container{
+    position: relative;
+    width: 1440px;
+    height: 2561px;
+
+    background: #F2F2F2;
+    border-radius: 12px;
+
+    font-family:"Montserrat";
+    font-weight: 500;
+}
+.rect, .rect1, .rect2, .rect3, .rect4, .rect5, .rect6, .rect7, .rect8, .rect9, .rect10{
+    box-shadow: 0px 2px 10px #4F4F4F;
+} 
+/*........ sttling the profile part.........*/
+.pfimg{
+    position: absolute;
+    width: 367px;
+    height: 359px;
+    left: 88px;
+    top: 94px;
+}
+h1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #4F4F4F;
+}
+.profile{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+.pfh1{
+    position: absolute;
+    width: 168.34px;
+    height: 30.32px;
+    left: 88px;
+    top: 476.68px;   
+}
+.pfpost{
+    position: absolute;
+    width: 196.57px;
+    height: 23px;
+    left: 88px;
+    top: 514px;
+}
+.pficon{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 88px;
+    top: 568px
+}
+.pfemail{
+    position: absolute;
+    width: 187px;
+    height: 23px;
+    left: 129px;
+    top: 568px;
+    text-decoration: none;
+    color: #4F4F4F;
+}
+.pficon1{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 88px;
+    top: 601px
+}
+.pftel{
+    position: absolute;
+    width: 179px;
+    height: 23px;
+    left: 129px;
+    top: 602px;
+
+    text-decoration: none;
+    color: #4F4F4F;
+}
+.pfbio{
+    position: absolute;
+    width: 332px;
+    height: 69px;
+    left: 88px;
+    top: 660px;
+}
+.rect{
+    position: absolute;
+    width: 413px;
+    height: 692px;
+    left: 65px;
+    top: 71px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+/*........ sttling the attribute part.........*/
+
+.attribute{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #4F4F4F;
+}
+.rect1{
+    position: absolute;
+    width: 859px;
+    height: 185px;
+    left: 510px;
+    top: 71px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.attfe{
+    position: absolute;
+    width: 120px;
+    height: 23px;
+    left: 533px;
+    top: 94px;
+
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.atthtml{
+    position: absolute;
+    width: 50px;
+    height: 21px;
+    left: 533px;
+    top: 135px;
+}
+.bar1{
+    position: absolute;
+    width: 236px;
+    height: 9px;
+    left: 664px;
+    top: 141px;
+    background: #C4C4C4;
+    border-radius: 12px;
+}
+.bbar1{
+    position: absolute;
+    width: 218px;
+    height: 9px;
+    left: 664px;
+    top: 141px;
+
+    background: #2F80ED;
+    border-radius: 12px;
+}
+.attcss{
+    position: absolute;
+    width: 87px;
+    height: 21px;
+    left: 533px;
+    top: 173px;
+}
+.bar2{
+    position: absolute;
+    width: 236px;
+    height: 9px;
+    left: 664px;
+    top: 179px;
+
+    background: #C4C4C4;
+    border-radius: 12px;
+}
+.bbar2{
+    position: absolute;
+    width: 170px;
+    height: 9px;
+    left: 664px;
+    top: 179px;
+
+    background: #2F80ED;
+    border-radius: 12px;
+}
+.attjs{
+    position: absolute;
+    width: 34px;
+    height: 21px;
+    left: 533px;
+    top: 211px;
+}
+.bar3{
+    position: absolute;
+    width: 236px;
+    height: 9px;
+    left: 664px;
+    top: 218px;
+    
+    background: #C4C4C4;
+    border-radius: 12px;
+}
+.bbar3{
+    position: absolute;
+    width: 100px;
+    height: 9px;
+    left: 664px;
+    top: 218px;
+
+    background: #2F80ED;
+    border-radius: 12px;
+}
+.attwp{
+    position: absolute;
+    width: 87px;
+    height: 21px;
+    left: 960px;
+    top: 135px;
+}
+.bar4{
+    position: absolute;
+    width: 236px;
+    height: 9px;
+    left: 1090px;
+    top: 141px;
+    
+    background: #C4C4C4;
+    border-radius: 12px;
+}
+.bbar4{
+    position: absolute;
+    width: 150px;
+    height: 9px;
+    left: 1090px;
+    top: 141px;
+
+    background: #2F80ED;
+    border-radius: 12px;
+}
+.attrt{
+    position: absolute;
+    width: 87px;
+    height: 21px;
+    left: 960px;
+    top: 173px;
+}
+.bar5{
+    position: absolute;
+    width: 236px;
+    height: 9px;
+    left: 1090px;
+    top: 173px;
+    
+    background: #C4C4C4;
+    border-radius: 12px;
+}
+.bbar5{
+    position: absolute;
+    width: 50px;
+    height: 9px;
+    left: 1090px;
+    top: 173px;
+
+    background: #2F80ED;
+    border-radius: 12px;
+}
+
+/*........ sttling the project part.........*/
+
+.project{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.a{
+    color: #2F80ED;
+}
+button{
+    width: 136.27px;
+    height: 46px;
+    font-size: 18px;
+
+    line-height: 22px;
+    color: #FFFFFF;
+    font-family: "Montserrat";
+    background: #196fdf;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 2px 2px  #4F4F4F;
+}
+button:hover{
+    background-color:rgb(13, 88, 228);
+}
+.btn1b:hover, .btn2b:hover, .btn3b:hover{
+    background-color:whitesmoke;
+}
+.pj{
+    position: absolute;
+    width: 102px;
+    height: 22px;
+    left: 532px;
+    top: 308px;
+
+    font-size: 18px;
+    line-height: 22px;
+}
+.rect2{
+    position: absolute;
+    width: 862px;
+    height: 66px;
+    left: 510px;
+    top: 288px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+/*........ sttling the recipe Blog.........*/
+
+.recipe{
+    position: absolute;
+    top: -130px;
+}
+.rect3{
+    position: absolute;
+    width: 859px;
+    height: 320px;
+    left: 510px;
+    top: 504px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.recimg{
+    position: absolute;
+    width: 322px;
+    height: 274px;
+    left: 528px;
+    top: 527px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 10px #4F4F4F;
+}
+.rechcr{
+    position: absolute;
+    width: 300px;
+    height: 20px;
+    left: 884px;
+    top: 530px;
+}
+.rech1{
+    position: absolute;
+    width: 150px;
+    height: 29px;
+    left: 884px;
+    top: 575px;
+}
+.recp{
+    position: absolute;
+    width: 464px;
+    height: 80px;
+    left: 884px;
+    top: 622px;
+}
+.btn1a{
+    position: absolute;
+    left: 884px;
+    top: 753px;
+}
+.btn1b{
+    position: absolute;
+    left: 1031px;
+    top: 753px;
+    border: 1px solid #2F80ED;
+    box-sizing: border-box;
+    border-radius: 12px;
+    color:#2F80ED; ;
+    background-color: white;
+}
+
+/*........ sttling the checkout.........*/
+
+.checkout{
+    position: absolute;
+    top: -150px;
+}
+.rect4{
+    position: absolute;
+    width: 859px;
+    height: 320px;
+    left: 510px;
+    top: 860px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.chimg{
+    position: absolute;
+    width: 322px;
+    height: 274px;
+    left: 528px;
+    top: 883px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 10px #4F4F4F;
+}
+.chhcr{
+    position: absolute;
+    width: 300px;
+    height: 20px;
+    left: 884px;
+    top: 886px;
+}
+.chh1{
+    position: absolute;
+    width: 150px;
+    height: 29px;
+    left: 884px;
+    top: 931px;
+}
+.chp{
+    position: absolute;
+    width: 464px;
+    height: 80px;
+    left: 884px;
+    top: 978px;
+}
+.btn2a{
+    position: absolute;
+    left: 884px;
+    top: 1109px;
+}
+.btn2b{
+    position: absolute;
+    left: 1031px;
+    top: 1109px;
+    border: 1px solid #2F80ED;
+    box-sizing: border-box;
+    border-radius: 12px;
+    color:#2F80ED; ;
+    background-color: white;
+}
+
+/*........ sttling the homepage.........*/
+
+.homepage{
+    position: absolute;
+    top: -170px;
+}
+.rect5{
+    position: absolute;
+    width: 859px;
+    height: 320px;
+    left: 510px;
+    top: 1216px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.homimg{
+    position: absolute;
+    width: 322px;
+    height: 274px;
+    left: 528px;
+    top: 1242px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 10px #4F4F4F;
+}
+.homhcr{
+    position: absolute;
+    width: 300px;
+    height: 20px;
+    left: 884px;
+    top: 1242px;
+}
+.homh1{
+    position: absolute;
+    width: 200px;
+    height: 29px;
+    left: 884px;
+    top: 1287px;
+}
+.homp{
+    position: absolute;
+    width: 464px;
+    height: 80px;
+    left: 884px;
+    top: 1334px;
+}
+.btn3a{
+    position: absolute;
+    left: 884px;
+    top: 1465px;
+}
+.btn3b{
+    position: absolute;
+    left: 1031px;
+    top: 1465px;
+    border: 1px solid #2F80ED;
+    box-sizing: border-box;
+    border-radius: 12px;
+    color:#2F80ED; ;
+    background-color: white;
+}
+
+/*........ sttling the certificate part.........*/
+
+.rect10{
+    position: absolute;
+    width: 859px;
+    height: 370px;
+    left: 510px;
+    top: 1410px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.cerh1{
+    position: absolute;
+    width: 200px;
+    height: 29px;
+    left: 540px;
+    top: 1420px;
+}
+/*........ sttling the experience part.........*/
+
+.rect6{
+    position: absolute;
+    width: 413px;
+    height: 690px;
+    left: 65px;
+    top: 808px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.exh1{
+    position: absolute;
+    width: 148px;
+    height: 29px;
+    left: 87px;
+    top: 825px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+.experince{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+.zurimg{
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    left: 87px;
+    top: 898px;
+}
+.zurdt{
+    position: absolute;
+    width: 129px;
+    height: 17px;
+    left: 187px;
+    top: 898px;
+
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+.zurpost{
+    position: absolute;
+    width: 220px;
+    height: 20px;
+    left: 187px;
+    top: 927px;
+    font-weight: 600;
+    color: #333333;
+}
+.zurp{
+    position: absolute;
+    width: 273px;
+    height: 79px;
+    left: 187px;
+    top: 980px;
+    color: #828282;
+}
+
+.devimg{
+    position: absolute;
+    width: 87px;
+    height: 80px;
+    left: 87px;
+    top: 1095px;
+    background-color: black;
+}
+.devdt{
+    position: absolute;
+    width: 129px;
+    height: 17px;
+    left: 187px;
+    top: 1095px;
+
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+.devpost{
+    position: absolute;
+    width: 220px;
+    height: 20px;
+    left: 187px;
+    top: 1124px;
+    font-weight: 600;
+    color: #333333;
+}
+.devp{
+    position: absolute;
+    width: 273px;
+    height: 79px;
+    left: 187px;
+    top: 1177px;
+    color: #828282;
+}
+
+.hicimg{
+    position: absolute;
+    width: 87px;
+    height: 80px;
+    left: 87px;
+    top: 1293px;
+}
+.hicdt{
+    position: absolute;
+    width: 140px;
+    height: 17px;
+    left: 187px;
+    top: 1296px;
+
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+.hicpost{
+    position: absolute;
+    width: 220px;
+    height: 20px;
+    left: 187px;
+    top: 1325px;
+    font-weight: 600;
+    color: #333333;
+}
+.hicp{
+    position: absolute;
+    width: 293px;
+    height: 79px;
+    left: 180px;
+    top: 1378px;
+    color: #828282;
+}
+
+
+
+
+
+/*........ sttling the Hobbies part.........*/
+
+.rect7{
+    position: absolute;
+    width: 413px;
+    height: 836px;
+    left: 65px;
+    top: 1542px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.hbh1{
+    position: absolute;
+    width: 101px;
+    height: 29px;
+    left: 87px;
+    top: 1564px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+/*........ sttling the cooking aspect.........*/
+
+.coimg{
+    position: absolute;
+    width: 369px;
+    height: 155px;
+    left: 87px;
+    top: 1619px;
+}
+.cohb{
+    position: absolute;
+    width: 74px;
+    height: 22px;
+    left: 87px;
+    top: 1784px;
+    font-weight: 600;
+
+    color: #333333;
+}
+.cop{
+    position: absolute;
+    width: 383px;
+    height: 20px;
+    left: 87px;
+    top: 1816px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+/*........ sttling the Gaming part.........*/
+
+.gaimg{
+    position: absolute;
+    width: 369px;
+    height: 155px;
+    left: 87px;
+    top: 1872px;
+}
+.gahb{
+    position: absolute;
+    width: 78px;
+    height: 22px;
+    left: 87px;
+    top: 2037px;
+    font-weight: 600;
+
+    color: #333333;
+}
+.gap{
+    position: absolute;
+    width: 383px;
+    height: 20px;
+    left: 87px;
+    top: 2069px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+/*........ sttling the traveling part.........*/
+.trimg{
+    position: absolute;
+    width: 369px;
+    height: 155px;
+    left: 87px;
+    top: 2125px;
+}
+.trhb{
+    position: absolute;
+    width: 74.19px;
+    height: 22px;
+    left: 87px;
+    top: 2290px;
+    font-weight: 600;
+
+    color: #333333;
+}
+.trp{
+    position: absolute;
+    width: 383px;
+    height: 20px;
+    left: 87px;
+    top: 2322px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+/*........ sttling the Blog part.........*/
+
+.rect8{
+    position: absolute;
+    width: 862px;
+    height: 66px;
+    left: 510px;
+    top: 1584px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.blbg{
+    position: absolute;
+    width: 76px;
+    height: 22px;
+    left: 532px;
+    top: 1606px;
+    color: #4F4F4F;    
+}
+.rect9{
+    position: absolute;
+    width: 859px;
+    height: 475px;
+    left: 510px;
+    top: 1666px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.blimg{
+    position: absolute;
+    width: 467px;
+    height: 357px;
+    left: 902px;
+    top: 1730px;
+    border-radius: 12px 0px 0px 12px;
+}
+.blblog{
+    position: absolute;
+    width: 38px;
+    height: 20px;
+    left: 530px;
+    top: 1700px;
+
+    font-weight: 600;
+    color: #E0E0E0;
+}
+.blh1{
+    position: absolute;
+    width: 178px;
+    height: 87px;
+    left: 530px;
+    top: 1750px;
+}
+.blp{
+    position: absolute;
+    width: 340px;
+    height: 160px;
+    left: 532px;
+    top: 1863px;
+}
+.bla{
+    position: absolute;
+    width: 109px;
+    height: 20px;
+    left: 530px;
+    top: 2110px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2F80ED;
+}
+.blog{
+    position: absolute;
+    top: 233px;
+}
+
+/*........ styling footer.........*/
+
+.footer{
+    position: absolute;
+    width: 340px;
+    height: 17px;
+    top: 2513px;
+    left: 577px;
+    font-size: 14px;
+    line-height: 17px;
+    
+    text-align: center;
+}
+#a{
+    color: #2F80ED;
+    font-weight: 600;
+}
